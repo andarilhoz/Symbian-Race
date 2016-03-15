@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: b90ddef70c8c7bc49b525b539a4e97d1
-timeCreated: 1457756164
+guid: 917983029534d6a419d51a7d1423173b
+timeCreated: 1458020213
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,7 +8,6 @@ TextureImporter:
     21300002: spritesheet_players_1
     21300004: spritesheet_players_2
     21300006: spritesheet_players_3
-    21300008: spritesheet_players_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -34,7 +33,7 @@ TextureImporter:
   textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
-    filterMode: 0
+    filterMode: -1
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -58,99 +57,81 @@ TextureImporter:
     - name: spritesheet_players_0
       rect:
         serializedVersion: 2
-        x: 651
+        x: 650
         y: 1792
-        width: 104
-        height: 150
+        width: 105
+        height: 149
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -52, y: 150}
-        - {x: -52, y: 0}
-        - {x: 43, y: 0}
-        - {x: 52, y: 10}
-        - {x: 52, y: 132}
-        - {x: 30, y: 150}
+      - - {x: -52.5, y: 149}
+        - {x: -52.5, y: 14}
+        - {x: -43.5, y: 0}
+        - {x: 51.5, y: 0}
+        - {x: 52.5, y: 3}
+        - {x: 52.5, y: 146}
+        - {x: 49.5, y: 149}
     - name: spritesheet_players_1
       rect:
         serializedVersion: 2
         x: 520
         y: 1535
-        width: 112
-        height: 157
+        width: 113
+        height: 156
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -56, y: 157}
-        - {x: -56, y: 18}
-        - {x: -50, y: 0}
-        - {x: 47, y: 0}
-        - {x: 56, y: 20}
-        - {x: 56, y: 157}
+      - - {x: -56.5, y: 0}
+        - {x: 25.5, y: 0}
+        - {x: 56.5, y: 19}
+        - {x: 56.5, y: 137}
+        - {x: 50.5, y: 156}
+        - {x: -55.5, y: 156}
+        - {x: -56.5, y: 154}
     - name: spritesheet_players_2
       rect:
         serializedVersion: 2
         x: 522
-        y: 1279
-        width: 108
-        height: 154
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -44, y: 154}
-        - {x: -54, y: 143}
-        - {x: -54, y: 34}
-        - {x: -52, y: 32}
-        - {x: -41, y: 39}
-        - {x: -39, y: 0}
-        - {x: 43, y: 0}
-        - {x: 54, y: 26}
-        - {x: 54, y: 149}
-        - {x: 35, y: 154}
-    - name: spritesheet_players_3
-      rect:
-        serializedVersion: 2
-        x: 522
-        y: 256
+        y: 1280
         width: 107
         height: 152
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -31.5, y: 152}
-        - {x: -53.5, y: 145}
-        - {x: -53.5, y: 29}
-        - {x: -44.5, y: 29}
-        - {x: -41.5, y: 33}
-        - {x: -40.5, y: 36}
-        - {x: -38.5, y: 32}
-        - {x: -39.5, y: 0}
+      - - {x: -29.5, y: 152}
+        - {x: -32.5, y: 151}
+        - {x: -53.5, y: 120}
+        - {x: -53.5, y: 19}
+        - {x: -48.5, y: 0}
         - {x: 53.5, y: 0}
-        - {x: 53.5, y: 152}
-    - name: spritesheet_players_4
+        - {x: 53.5, y: 138}
+        - {x: 36.5, y: 152}
+    - name: spritesheet_players_3
       rect:
         serializedVersion: 2
-        x: 520
-        y: 0
-        width: 112
-        height: 151
+        x: 524
+        y: 256
+        width: 106
+        height: 152
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -38, y: 151}
-        - {x: -54, y: 120}
-        - {x: -56, y: 104}
-        - {x: -56, y: 38}
-        - {x: -16, y: 0}
-        - {x: 49, y: 0}
-        - {x: 56, y: 3}
-        - {x: 56, y: 125}
-        - {x: 42, y: 151}
+      - - {x: 33, y: 152}
+        - {x: -36, y: 152}
+        - {x: -53, y: 131}
+        - {x: -53, y: 29}
+        - {x: -46, y: 29}
+        - {x: -43, y: 33}
+        - {x: -42, y: 36}
+        - {x: -40, y: 32}
+        - {x: -41, y: 0}
+        - {x: 43, y: 0}
+        - {x: 53, y: 24}
+        - {x: 53, y: 146}
     outline: []
   spritePackingTag: 
   userData: 

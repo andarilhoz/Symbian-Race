@@ -24,6 +24,15 @@ public class PlatformGenerator : MonoBehaviour {
     public float maxHeightChange;
     private float heightChange;
 
+    private CoinGenerator theCoinGenerator;
+    public float randomCoinThreshold;
+
+    public float randomSpikeThreshold;
+    public ObjectPooler spikePool;
+
+    public float powerupHeight;
+    public ObjectPooler powerupPool;
+    public float powerupThreshold;
 
 	// Use this for initialization
 	void Start () {
@@ -37,6 +46,7 @@ public class PlatformGenerator : MonoBehaviour {
         minHeight = transform.position.y;
         maxHeight = maxHeightPoint.position.y;
 
+        theCoinGenerator = FindObjectOfType<CoinGenerator>();
 	}
 	
 	// Update is called once per frame
@@ -57,7 +67,16 @@ public class PlatformGenerator : MonoBehaviour {
                 heightChange = minHeight;
             }
 
-          
+            if (Random.Range(0f, 100f) < powerupThreshold){
+
+                GameObject newPowerup = powerupPool.GetPooledObject();
+
+                newPowerup.transform.position = transform.position + new Vector3(distanceBetween / 2f, Random.Range(powerupHeight/2f,powerupHeight), 0f);
+                newPowerup.SetActive(true); 
+                //theCoinGenerator.SpawnCoins(new Vector3(transform.position.x, transform.position.y + 1f, transform.position.z));
+            }
+
+
             transform.position = new Vector3(transform.position.x + (platformWidths[platformeSelector] /2) + distanceBetween, heightChange, transform.position.z);
 
             
@@ -69,6 +88,22 @@ public class PlatformGenerator : MonoBehaviour {
             newPlatform.transform.position = transform.position;
             newPlatform.transform.rotation = transform.rotation;
             newPlatform.SetActive(true);
+
+            if (Random.Range(0f, 100f) < randomCoinThreshold) {
+                theCoinGenerator.SpawnCoins(new Vector3(transform.position.x, transform.position.y + 1f, transform.position.z));
+            }
+
+            if (Random.Range(0f, 100f) < randomSpikeThreshold) {
+                GameObject newSpike = spikePool.GetPooledObject();
+
+                float spikeXPosition = Random.Range(-platformWidths[platformeSelector] / 2 +1f, platformWidths[platformeSelector] / 2 -1f);
+
+                Vector3 spikePosition = new Vector3(spikeXPosition, 0.5f, 0f);
+
+                newSpike.transform.position = transform.position + spikePosition;
+                newSpike.transform.rotation = transform.rotation;
+                newSpike.SetActive(true);
+            }
 
             transform.position = new Vector3(transform.position.x + (platformWidths[platformeSelector] / 2), transform.position.y, transform.position.z);
 

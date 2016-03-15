@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: 6a37b2933d7de124586397f09e33deeb
+timeCreated: 1458018420
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spriteGame_0
+    21300002: spriteGame_1
+    21300004: spriteGame_2
+    21300006: spriteGame_3
+    21300008: spriteGame_4
+    21300010: spriteGame_5
+    21300012: spriteGame_6
+    21300014: spriteGame_7
+    21300016: spriteGame_8
+    21300018: spriteGame_9
+    21300020: spriteGame_10
+    21300022: spriteGame_11
+    21300024: spriteGame_12
+    21300026: spriteGame_13
+    21300028: spriteGame_14
+    21300030: spriteGame_15
+    21300032: spriteGame_16
+    21300034: spriteGame_17
+    21300036: spriteGame_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spriteGame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 51
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 787
+        width: 49
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 690
+        width: 45
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 33}
+        - {x: -4.5, y: 33}
+        - {x: -22.5, y: 25}
+        - {x: -22.5, y: 9}
+        - {x: -5.5, y: 0}
+        - {x: 18.5, y: 0}
+        - {x: 20.5, y: 2}
+        - {x: 18.5, y: 7}
+        - {x: 22.5, y: 7}
+    - name: spriteGame_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 49
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 33}
+        - {x: -9.5, y: 31}
+        - {x: -9.5, y: 28}
+        - {x: -6.5, y: 25}
+        - {x: -15.5, y: 27}
+        - {x: -19.5, y: 27}
+        - {x: -24.5, y: 24}
+        - {x: -24.5, y: 17}
+        - {x: -10.5, y: 11}
+        - {x: 7.5, y: 0}
+        - {x: 24.5, y: 0}
+        - {x: 24.5, y: 33}
+    - name: spriteGame_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 643
+        width: 28
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_5
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 598
+        width: 27
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 552
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 35}
+        - {x: -12, y: 30}
+        - {x: -11, y: 26}
+        - {x: -8, y: 23}
+        - {x: -17, y: 11}
+        - {x: -17, y: 2}
+        - {x: -15, y: 0}
+        - {x: -9, y: 0}
+        - {x: -4, y: 4}
+        - {x: 17, y: 9}
+        - {x: 17, y: 35}
+    - name: spriteGame_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 512
+        width: 45
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 49
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 417
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 32}
+        - {x: -10, y: 28}
+        - {x: -7, y: 23}
+        - {x: -4, y: 22}
+        - {x: -15, y: 26}
+        - {x: -24, y: 24}
+        - {x: -24, y: 14}
+        - {x: 1, y: 0}
+        - {x: 17, y: 0}
+        - {x: 24, y: 6}
+        - {x: 24, y: 32}
+    - name: spriteGame_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 368
+        width: 44
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 17}
+        - {x: 0, y: 0}
+        - {x: 22, y: 0}
+        - {x: 22, y: 33}
+        - {x: -16, y: 33}
+        - {x: -22, y: 32}
+    - name: spriteGame_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 322
+        width: 41
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 32}
+        - {x: -20.5, y: 26}
+        - {x: -20.5, y: 11}
+        - {x: -4.5, y: 0}
+        - {x: 14.5, y: 0}
+        - {x: 17.5, y: 11}
+        - {x: 17.5, y: 32}
+    - name: spriteGame_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 276
+        width: 30
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 230
+        width: 34
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 35}
+        - {x: -17, y: 17}
+        - {x: -17, y: 0}
+        - {x: 17, y: 0}
+        - {x: 17, y: 35}
+    - name: spriteGame_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 139
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 95
+        width: 27
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_17
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 51
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: spriteGame_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 5
+        width: 26
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
